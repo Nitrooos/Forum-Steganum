@@ -19,4 +19,4 @@ describe 'Posts controller', ->
     expect(PostCtrl).toBeDefined()
 
   it 'should expose the postsServ on the scope.post', ->
-    expect($scope.postCtrl.post).not.toBe mockedPostServ
+    expect($scope.postCtrl.post).toBe mockedPostServ
